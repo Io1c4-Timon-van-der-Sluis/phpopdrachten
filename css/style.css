@@ -1,6 +1,6 @@
 body
 {
-    background-color: lightgrey;
+    background-color: lightgray;
     margin: 0px;
 }
 
@@ -20,7 +20,7 @@ header
 aside
 {
     /*groote*/
-    width:30%;
+    width: 30%;
     /*achtergrond*/
     background-color: darkred;
 }
@@ -29,13 +29,9 @@ h2
 {
     background-color:beige;
 }
-h2
-{
-    font-size: 3em;
-}
 
 /*opdrachten links*/
-
+li
 {
     /*tekst opmaak*/
     color: white;
@@ -45,12 +41,11 @@ h2
 
 
 
-/*----------op telefoon----------
+/*----------op telefoon----------*/
 @media screen and (max-width:1080px)
 {
-    /*titel
     header
     {
         font-size: 0.8em;
     }
-}*/
+}
