@@ -1,14 +1,13 @@
 <html lang="en">
     <head>
         <meta charset="utf8" />
+        <link href="style.css" type="text/css" rel="stylesheet">
         <title><?php print "pagina 1"; ?></title>
     </head>
     <body>
-    <h1>
-        <?php
-            echo "hallo wereld 1";
+        <header>
+            Timon van der Sluis
+        </header>
 
-        ?>
-    </h1>
     </body>
 </html>
