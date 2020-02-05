@@ -29,18 +29,28 @@ h2
 {
     background-color:beige;
 }
+h2
+{
+    font-size: 3em;
+}
+
+/*opdrachten links*/
 
 {
-    color:red;
+    /*tekst opmaak*/
+    color: white;
+    font-size: 2em;
 }
 
 
-/*----------op telefoon----------*/
+
+
+/*----------op telefoon----------
 @media screen and (max-width:1080px)
 {
-    /*titel*/
+    /*titel
     header
     {
         font-size: 0.8em;
     }
-}
+}*/
