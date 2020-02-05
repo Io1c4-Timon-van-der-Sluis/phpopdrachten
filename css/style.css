@@ -8,7 +8,7 @@ body
 header
 {
     /*tekst opmaak*/
-    text-align: center;
+    text-align: left;
     font-family: "Bookman Old Style";
     color: white;
     font-size: 2em;
@@ -20,14 +20,14 @@ header
 aside
 {
     /*groote*/
-    width: 30%;
+    width: 3%;
     /*achtergrond*/
     background-color: darkred;
 }
 
 h2
 {
-    background-color:beige;
+    background-color: beige;
 }
 
 /*opdrachten links*/
@@ -36,16 +36,4 @@ li
     /*tekst opmaak*/
     color: white;
     font-size: 2em;
-}
-
-
-
-
-/*----------op telefoon----------*/
-@media screen and (max-width:1080px)
-{
-    header
-    {
-        font-size: 0.8em;
-    }
 }
