@@ -1,0 +1,46 @@
+body
+{
+    background-color: lightgrey;
+    margin: 0px;
+}
+
+/*titel*/
+header
+{
+    /*tekst opmaak*/
+    text-align: center;
+    font-family: "Bookman Old Style";
+    color: white;
+    font-size: 2em;
+    /*achtergrond*/
+    background-color: darkred;
+}
+
+/*opdrachten structuur*/
+aside
+{
+    /*groote*/
+    width:30%;
+    /*achtergrond*/
+    background-color: darkred;
+}
+
+h2
+{
+    background-color:beige;
+}
+
+{
+    color:red;
+}
+
+
+/*----------op telefoon----------*/
+@media screen and (max-width:1080px)
+{
+    /*titel*/
+    header
+    {
+        font-size: 0.8em;
+    }
+}
