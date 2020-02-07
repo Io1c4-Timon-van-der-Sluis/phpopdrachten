@@ -8,7 +8,7 @@ body
 header
 {
     /*tekst opmaak*/
-    text-align: left;
+    text-align: center;
     font-family: "Bookman Old Style";
     color: white;
     font-size: 2em;
@@ -16,24 +16,100 @@ header
     background-color: darkred;
 }
 
-/*opdrachten structuur*/
+/*----------opdrachten lijst----------*/
+/*algemeene opmaak*/
 aside
 {
     /*groote*/
-    width: 3%;
+    width: 30vw;
     /*achtergrond*/
     background-color: darkred;
+    padding: 1vw;
+    top: 10vw;
+
 }
 
+/*menu koptekst*/
 h2
 {
     background-color: beige;
+    color:rgb(50,50,50);
+}
+/*hoofdstuk naam*/
+.tekst
+{
+    color: white;
+    font-size: 1em;
 }
 
-/*opdrachten links*/
-li
+ul>li
 {
-    /*tekst opmaak*/
+    list-style-type: square;
+}
+
+li>ul
+{
     color: white;
-    font-size: 2em;
+    list-style-type: circle;
+}
+/*bestand links*/
+a
+{
+    text-decoration: none;
+    color: white;
+    font-max-size: 1.2em;
+    transition-duration: 0.5s;
+    position: absolute;
+}
+
+a:hover
+{
+    font-size: calc(1em + 2px);
+    transition-duration: 0.5s;
+
+}
+
+
+
+/*------------------------------------*/
+img
+{
+    background-color: rgba(255,255,255);
+    transform: rotate(-90deg);
+    width: 15em;
+    height: 10em;
+    margin-left: 9vw;
+    margin-top: 2vw;
+    position:absolute;
+}
+
+@media screen and (max-width:1080px)
+{
+    header
+    {
+        font-size: 2.8vw;
+    }
+
+    h2
+    {
+        font-size: 10vw;
+        text-align: center;
+    }
+
+    aside
+    {
+        /*algemeen*/
+        position: relative;
+        left: calc(50% - 25vw);
+        min-width: 50vw;
+        padding: 2vw;
+
+        /*tekst opmaak*/
+        font-size: calc(5vw + 1vw);
+    }
+
+    img
+    {
+        visibility: hidden;
+    }
 }
