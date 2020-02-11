@@ -3,8 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="utf8" />
-        <link href="css/style.css" type="text/css" rel="stylesheet" >
-        <title><?php print "pagina 1"; ?></title>
+        <link href="CSS/style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
     <!---titel--->
@@ -14,7 +13,7 @@
     <aside>
         <h2>Menu</h2>
         <ul>
-            <img class="achtbaan" src="achtbaan.png">
+            <img class="achtbaan" src="IMG/achtbaan.png">
             <!---hoofdstuk 2--->
             <li><div class="tekst">Hoofdstuk 2</div>
                 <ul>
