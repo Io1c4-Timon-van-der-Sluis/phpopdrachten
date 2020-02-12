@@ -9,18 +9,12 @@
 <html title="main" lang="en">
     <head>
         <meta charset="utf8"/>
-        <link href="CSS/style.css" type="text/css" rel="stylesheet">
+        <link href="../CSS/style.css" type="text/css" rel="stylesheet">
         <title>
             Home
         </title>
     </head>
     <body>
-    <script defer>
-        function no()
-        {
-            alert ("You are already on the right page you stupid");
-        }
-    </script>
     <!---titel--->
     <header>
         <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
@@ -33,10 +27,10 @@
             <li><div class="tekst">Hoofdstuk 2</div>
                 <ul>
                     <li>
-                        <a href="#" onclick="no()">Opdracht 2.1</a>
+                        <a href="../index.php">Opdracht 2.1</a>
                     </li>
                     <li>
-                        <a href="hoofdstuk2/opdracht2-2.php">Opdracht 2.2</a>
+                        <a href="hoofdstuk2/opdracht_2-2.php">Opdracht 2.2</a>
                     </li>
                 </ul>
 
@@ -45,50 +39,48 @@
             <li><div class="tekst">Hoofdstuk 3</div>
                 <ul>
                     <li>
-                        <a href="hoofdstuk3/opdracht3-1.php">Opdracht 3.1</a>
+                        <a href="hoofdstuk3/opdracht_3-1.php">Opdracht 3.1</a>
                     </li>
                     <li>
-                        <a href="hoofdstuk3/opdracht3-2.php">Opdracht 3.2</a>
+                        <a href="hoofdstuk3/opdracht_3-2.php">Opdracht 3.2</a>
                     </li>
                     <li>
-                        <a href="hoofdstuk3/opdracht3-3.php">Opdracht 3.3</a>
+                        <a href="hoofdstuk3/opdracht_3-3.php">Opdracht 3.3</a>
                     </li>
                 </ul>
                 <!---hoofdstuk 4--->
             <li><div class="tekst">Hoofdstuk 4</div>
                 <ul>
                     <li>
-                        <a href="hoofdstuk4/opdracht4-1.php">Opdracht 4.1</a>
+                        <a href="hoofdstuk4/opdracht_4-1.php">Opdracht 4.1</a>
                     </li>
                     <li>
-                        <a href="hoofdstuk4/opdracht4-2.php">Opdracht 4.2</a>
+                        <a href="hoofdstuk4/opdracht_4-2.php">Opdracht 4.2</a>
                     </li>
                     <li>
-                        <a href="hoofdstuk4/opdracht4-3.php">Opdracht 4.3</a>
+                        <a href="hoofdstuk4/opdracht_4-3.php">Opdracht 4.3</a>
                     </li>
                     <li>
-                        <a href="hoofdstuk4/opdracht4-4.php">Opdracht 4.4</a>
+                        <a href="hoofdstuk4/opdracht_4-4.php">Opdracht 4.4</a>
                     </li>
                 </ul>
                     <!---hoofdstuk 5--->
                     <li><div class="tekst">Hoofdstuk 5</div>
                         <ul>
                             <li>
-                                <a href="hoofdstuk5/opdracht5-1.php">Opdracht 5.1</a>
+                                <a href="hoofdstuk5/opdracht_5-1.php">Opdracht 5.1</a>
                             </li>
                             <li>
-                                <a href="hoofdstuk5/opdracht5-2.php">Opdracht 5.2</a>
+                                <a href="hoofdstuk5/opdracht_5-2.php">Opdracht 5.2</a>
                             </li>
                             <li>
-                                <a href="hoofdstuk5/opdracht5-3.php">Opdracht 5.3</a>
+                                <a href="hoofdstuk5/opdracht_5-3.php">Opdracht 5.3</a>
                             </li>
                             <li>
-                                <a href="hoofdstuk5/opdracht5-4.php">Opdracht 5.4</a>
+                                <a href="hoofdstuk5/opdracht_5-4.php">Opdracht 5.4</a>
                             </li>
                         </ul>
         </ul>
-
-
 
     </aside>
 

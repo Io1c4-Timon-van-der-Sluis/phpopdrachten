@@ -3,6 +3,7 @@ body
     background-color: lightgrey;
     margin: 0px;
     background-image: url(../IMG/beach.jpg);
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -27,7 +28,6 @@ aside
     width: 30vw;
     /*achtergrond*/
     background-color: darkred;
-    padding: 1vw;
     top: 10vw;
 
 }
@@ -37,6 +37,7 @@ h2
 {
     background-color: beige;
     color:rgb(50,50,50);
+    width:100%;
 }
 /*hoofdstuk naam*/
 .tekst
@@ -48,6 +49,7 @@ h2
 ul>li
 {
     list-style-type: square;
+    padding:0.2vw 1vw;
 }
 
 li>ul
@@ -67,8 +69,14 @@ a
 
 a:hover
 {
-    font-size: calc(1em + 2px);
+    font-size: calc(1.2em + 2px);
     transition-duration: 0.5s;
+    text-shadow: black 2px 2px 2px;
+
+}
+
+main
+{
 
 }
 
