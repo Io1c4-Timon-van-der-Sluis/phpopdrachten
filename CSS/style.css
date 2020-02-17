@@ -29,6 +29,7 @@ aside
     /*achtergrond*/
     background-color: darkred;
     top: 10vw;
+    box-shadow: black 2px 2px 2px;
 
 }
 
@@ -97,6 +98,8 @@ img
 iframe
 {
     background-color:white;
+    float:left;
+    margin:5px;
 }
 
 @media screen and (max-width:1080px)
