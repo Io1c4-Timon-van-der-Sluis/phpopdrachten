@@ -6,7 +6,7 @@
  * File: index.php
  */
 ?>
-<html title="main" lang="en">
+<html lang="en">
     <head>
         <meta charset="utf8"/>
         <link href="CSS/style.css" type="text/css" rel="stylesheet">
@@ -28,7 +28,6 @@
     <aside>
         <h2>Menu</h2>
         <ul>
-            <img alt="achtbaan" class="achtbaan" src="IMG/achtbaan.png"/>
             <!---hoofdstuk 2--->
             <li><div class="tekst">Hoofdstuk 2</div>
                 <ul>
@@ -54,7 +53,7 @@
                         <a href="hoofdstuk3/opdracht3-3.php">Opdracht 3.3</a>
                     </li>
                 </ul>
-                <!---hoofdstuk 4--->
+            <!---hoofdstuk 4--->
             <li><div class="tekst">Hoofdstuk 4</div>
                 <ul>
                     <li>
@@ -92,7 +91,7 @@
 
     </aside>
 
-    <main id="wrapper">
+    <main id="uitwerking">
         <h2>Uitwerkingen</h2>
     </main>
     </body>

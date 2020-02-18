@@ -3,7 +3,7 @@
  * User: Timon
  * Date: Date
  * Time: 12:00pm
- * File: index.php
+ * File: opdracht2-1.php
  */
 ?>
 <html title="main" lang="en">

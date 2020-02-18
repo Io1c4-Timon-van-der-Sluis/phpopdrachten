@@ -5,6 +5,8 @@
  * Time: 14:00pm
  * File: opdracht3-1.php
  */
+include "../../../wwwroot/phpopdrachten/header/header.php"
+
 ?>
 
 <?php
@@ -32,7 +34,6 @@ gehouden.";
 
 <html lang="en">
     <body>
-        <a href="../index.php">return</a>
         <p>
             <h2>Verhaal 1</h2>
             <?php echo "$verhaal"; ?>
