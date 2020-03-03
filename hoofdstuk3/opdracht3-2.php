@@ -5,7 +5,8 @@
  * Time: 18:00pm
  * File: opdracht3-2.php
  */
-include "../../../wwwroot/phpopdrachten/header/header.php"
+include "../../../wwwroot/phpopdrachten/includes/header.php";
+include "../../../wwwroot/phpopdrachten/includes/footer.php";
 ?>
 <?php
 //Taak 1
@@ -42,9 +43,8 @@ else
 }
 
 //Taak 3
-
 $countryName = "Nederland";
-$currentAge     = "80"    ;
+$currentAge     = 18    ;
 $janee          = "ERROR";
 
 if (

@@ -7,20 +7,10 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x:hidden;
+    overflow-y: hidden;
 }
 
 /*titel*/
-header
-{
-    /*tekst opmaak*/
-    text-align: center;
-    position:relative;
-    font-family: "Bookman Old Style";
-    color: white;
-    font-size: 2em;
-    /*achtergrond*/
-    background-color: darkred;
-}
 
 /*----------opdrachten lijst----------*/
 /*algemeene opmaak*/
@@ -66,7 +56,7 @@ li>ul
     list-style-type: circle;
 }
 /*bestand links*/
-a
+li>a
 {
     text-decoration: none;
     color: white;
@@ -75,7 +65,7 @@ a
     position: absolute;
 }
 
-a:hover
+li>a:hover
 {
     font-size: calc(1.2em + 2px);
     transition-duration: 0.5s;
@@ -89,6 +79,7 @@ main
     width: 70%;
     position:relative;
     display:inline-block;
+    background-color: beige;
 }
 
 
@@ -107,6 +98,8 @@ img
 
 @media screen and (max-width:1080px)
 {
+    body{overflow-y: visible;}
+
     header
     {
         font-size: 2.8vw;

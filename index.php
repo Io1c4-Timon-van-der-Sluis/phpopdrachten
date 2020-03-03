@@ -5,6 +5,9 @@
  * Time: 12:00pm
  * File: index.php
  */
+include "../../wwwroot/phpopdrachten/includes/header.php";
+include "../../wwwroot/phpopdrachten/includes/footer.php"
+
 ?>
 <html lang="en">
     <head>
@@ -22,9 +25,6 @@
         }
     </script>
     <!---titel--->
-    <header>
-        <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
-    </header>
     <aside>
         <h2>Menu</h2>
         <ul>
@@ -50,7 +50,7 @@
                         <a href="hoofdstuk3/opdracht3-2.php">Opdracht 3.2</a>
                     </li>
                     <li>
-                        <a href="hoofdstuk3/opdracht3-3.php">Opdracht 3.3</a>
+                        <a href="#" onclick="no()">Opdracht 3.3</a>
                     </li>
                 </ul>
             <!---hoofdstuk 4--->
@@ -93,6 +93,9 @@
 
     <main id="uitwerking">
         <h2>Uitwerkingen</h2>
+        <p>
+            Welkom bij mijn opdrachten portaal (dat absoluut beter is dan het KW1C portaal!)
+        </p>
     </main>
     </body>
 </html>

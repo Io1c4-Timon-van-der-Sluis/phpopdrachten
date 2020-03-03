@@ -1,0 +1,38 @@
+
+footer
+{
+    background-color: darkred;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: end;
+    color:white;
+}
+body{
+    margin:0;
+}
+  header
+  {
+      /*tekst opmaak*/
+      text-align: center;
+      font-family: "Bookman Old Style", serif;
+      color: white;
+      font-size: 2em;
+      /*achtergrond*/
+      background-color: darkred;
+      transition-duration: 0.5s;
+      overflow-x:hidden;
+      text-decoration: none;
+  }
+
+header:hover
+{
+    color:lightgrey;
+    transition-duration: 0.5s;
+
+}
+
+a
+{
+    text-decoration: none;
+}
