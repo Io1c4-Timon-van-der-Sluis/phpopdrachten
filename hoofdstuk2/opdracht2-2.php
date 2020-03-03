@@ -5,7 +5,8 @@
  * Time: 12:00pm
  * File: opdracht2-2.php
  */
-include "../../../wwwroot/phpopdrachten/header/header.php"
+include "../../../wwwroot/phpopdrachten/includes/header.php";
+include "../../../wwwroot/phpopdrachten/includes/footer.php";
 ?>
 
 <?php
@@ -39,14 +40,14 @@ $text15 = " toch";
 
 <h2>Taak 3</h2>
 <p>
-    <?php echo"
-        $text1$text11$text12
+    <?php echo
+        $text1 . $text11 . $text12 .
         
-        $text8$text15 dat $text5 zo'n makkelijke taal $text13$text10$text12
+        $text8 . $text15 . "dat" . $text5 . "zo'n makkelijke taal" . $text13 . $text10 . $text12 .
         
-        $text7$text10$text14$text9
+        $text7 . $text10 . $text14 . $text9
         
-    "?>
+    ?>
 </p>
 
 <!--opmaak-->
