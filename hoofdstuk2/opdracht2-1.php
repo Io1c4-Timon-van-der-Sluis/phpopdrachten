@@ -5,7 +5,11 @@
  * Time: 12:00pm
  * File: opdracht2-1.php
  */
+/*
+include "../../../wwwroot/phpopdrachten/includes/header.php";
+include "../../../wwwroot/phpopdrachten/includes/footer.php";
 ?>
+
 <html title="main" lang="en">
     <head>
         <meta charset="utf8"/>
@@ -89,3 +93,4 @@
     </main>
     </body>
 </html>
+*/
