@@ -1,7 +1,7 @@
 body
 {
     background-color: lightgrey;
-    margin: 0px;
+    margin: 0;
     background-image: url(../IMG/beach.jpg);
     background-blend-mode: darken;
     background-repeat: no-repeat;
@@ -19,10 +19,10 @@ aside
     /*groote*/
     width: 25%;
     height:50vw;
-    margin: 0px;
+    margin: 0;
     /*achtergrond*/
     background-color: darkred;
-    top: 0vw;
+    top: 0;
     box-shadow: black 2px 2px 2px;
     display: inline-block;
 
@@ -35,7 +35,7 @@ h2
     color: rgb(50,50,50);
     width: 100%;
     position:relative;
-    margin:0px;
+    margin:0;
 }
 /*hoofdstuk naam*/
 .tekst
