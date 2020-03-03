@@ -5,7 +5,8 @@
  * Time: 14:00pm
  * File: opdracht3-1.php
  */
-include "../../../wwwroot/phpopdrachten/header/header.php"
+include "../../../wwwroot/phpopdrachten/includes/header.php";
+include "../../../wwwroot/phpopdrachten/includes/footer.php";
 
 ?>
 
@@ -13,15 +14,15 @@ include "../../../wwwroot/phpopdrachten/header/header.php"
 
 $evenement= "Elfstedentocht";
 $frieselvenement= "Alvestêdetocht";
-$afstand= "200";
+$afstand= 200;
 $type= "schaatstocht";
 $baan= "natuurijs";
 $organisator= "Koninklijke Vereniging De Friesche Elf Steden.";
 $locatie= "Leeuwarden";
 $regio= "Friesland";
-$herhaald= "15";
-$eerste= "1909";
-$aantal= "1";
+$herhaald= 15;
+$eerste= 1909;
+$aantal= 1;
 
 $verhaal= "De $evenement (Fries: $frieselvenement) is een $afstand kilometer
 lange $type over $baan die wordt georganiseerd door
@@ -36,8 +37,7 @@ gehouden.";
     <body>
         <p>
             <h2>Verhaal 1</h2>
-            <?php echo "$verhaal"; ?>
-        </p>
+            <?php echo $verhaal; ?>
         <p>
             <h2>Verhaal 2</h2>
 
@@ -47,9 +47,7 @@ gehouden.";
 
 
         ?>
-        </p>
 
     </body>
 
 </html>
-
