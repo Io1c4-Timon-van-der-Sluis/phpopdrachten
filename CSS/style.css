@@ -82,6 +82,12 @@ main
     background-color: beige;
 }
 
+iframe
+{
+    width: 100%;
+    height: 413px;
+}
+
 
 
 /*------------------------------------*/

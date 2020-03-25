@@ -7,6 +7,7 @@
 </head>
 <html>
     <footer>
+        Goede<?php echo $dagdeel; ?> gebruiker welkom bij:
         <?php echo $current_file_name."\n"; ?>
         <?php echo $date; ?>
     </footer>
